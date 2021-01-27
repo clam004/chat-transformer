@@ -92,7 +92,7 @@ This can be fixed by providing your python interpreter with the path-to-your-mod
 
 you can find this path listed here
 
-$ python3 -m site
+`$ python3 -m site`
 
 ## Suggested resources for those new to python or deep learning 
 

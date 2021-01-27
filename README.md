@@ -28,13 +28,13 @@ My research interest is in incorporating the the latest research in natural lang
 
 if you already have python 3.6 and virtual environments, create a python 3.6 virtual environment, here i used env36 for python3.6 but you can use anything
 
-`$ python3.6 -m venv env36`
+`$ python3.6 -m venv env`
+or
+`virtualenv --python=/usr/bin/python3.6 env`
 
 if python3.6 is your default version, then when you type `python` into your terminal then it should say python version 3.6.x, and for you making the virtual environment is as simple as 
 
 `$ python -m venv env`
-
-`$ python -m venv env36`
 
 otherwise it is simple to get python3.6 and virtual environments
 
@@ -60,7 +60,7 @@ When you want to run the code activate the virtual environment inside the same f
 
 install dependencies
 
-`$ pip install -r requirements.txt`
+`$ pip3 install -r requirements.txt`
 
 [even with virtual environments, some troubleshoot might be needed](https://github.com/tensorflow/tensorflow/issues/559)
 
@@ -68,7 +68,7 @@ install dependencies
 
 save new dependences to requirements
 
-`$ pip freeze > requirements.txt`
+`$ pip3 freeze > requirements.txt`
 
 You can deactivate the virtual environment using the following command in your terminal:
 

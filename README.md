@@ -90,6 +90,10 @@ This can be fixed by providing your python interpreter with the path-to-your-mod
 
 `sys.path.append('/path/to/env/lib/python3.6/site-packages')` 
 
+you can find this path listed here
+
+$ python3 -m site
+
 ## Suggested resources for those new to python or deep learning 
 
 - [Python tutorials](https://www.learnpython.org/) 

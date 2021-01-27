@@ -2,7 +2,6 @@
 over-documented over-explained chatbot using original transformer as sequence-to-sequence model 
 
 <img src="https://raw.githubusercontent.com/dwyl/repo-badges/master/highresPNGs/start-with-why-HiRes.png" height="20" width="100">
-
 <img src="saved/images/talktochloe.png">
 <img src="saved/images/losslesson.png">
 
@@ -11,13 +10,6 @@ over-documented over-explained chatbot using original transformer as sequence-to
 My research interest is in incorporating the the latest research in natural language processing and reinforcement learning into palpable human interaction such as fully neural network based conversational dialogue.  
 
 *chloe* is an end to end neural network chatbot written in PyTorch based on the transformer. Accomplishing goals through conversation is a task we can all relate to, thus chatbots are an ideal agent through which to connect new research to our current understanding of AI and demonstrate new research. *chloe* is built from modules that are thoroughly explained and demonstrated using jupyter notebooks and toy examples that build from these basics.  
-
-<table ><tr style="background:transparent; border: none;">
-<td style="background:transparent; border: none;"><img width="200" height="100" src="https://venturebeat.com/wp-content/uploads/2019/06/pytorch.jpg">
-</td>
-<td style="background:transparent; border: none;"><img width="100" height="100" src="https://avatars3.githubusercontent.com/u/56938552?s=100&v=1"></td>
-<td style="background:transparent; border: none;"><img width="300" height="100" src="saved/images/ChloeRobotics.png"></td>
-</tr></table>
 
 - Python 3.6
 - torch==1.7.1 (PyTorch)

@@ -26,9 +26,6 @@ My research interest is in incorporating the the latest research in natural lang
 
 ## How to Start
 
-I am serious when I say "build advanced concepts from the very basics", so bare with me. A more detailed setup instructions is on the way. 
-
-
 if you already have python 3.6 and virtual environments, create a python 3.6 virtual environment, here i used env36 for python3.6 but you can use anything
 
 `$ python3.6 -m venv env36`

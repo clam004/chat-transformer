@@ -34,6 +34,8 @@ if python3.6 is your default version, then when you type `python` into your term
 
 `$ python -m venv env`
 
+`$ python -m venv env36`
+
 otherwise it is simple to get python3.6 and virtual environments
 
 [how to install Python 3.6 on ubuntu](http://ubuntuhandbook.org/index.php/2017/07/install-python-3-6-1-in-ubuntu-16-04-lts/)

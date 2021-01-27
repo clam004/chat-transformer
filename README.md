@@ -2,7 +2,6 @@
 over-documented over-explained chatbot using original transformer as sequence-to-sequence model 
 
 <img src="https://raw.githubusercontent.com/dwyl/repo-badges/master/highresPNGs/start-with-why-HiRes.png" height="20" width="100">
-
 <img src="saved/images/talktochloe.png">
 <img src="saved/images/losslesson.png">
 
@@ -11,13 +10,6 @@ over-documented over-explained chatbot using original transformer as sequence-to
 My research interest is in incorporating the the latest research in natural language processing and reinforcement learning into palpable human interaction such as fully neural network based conversational dialogue.  
 
 *chloe* is an end to end neural network chatbot written in PyTorch based on the transformer. Accomplishing goals through conversation is a task we can all relate to, thus chatbots are an ideal agent through which to connect new research to our current understanding of AI and demonstrate new research. *chloe* is built from modules that are thoroughly explained and demonstrated using jupyter notebooks and toy examples that build from these basics.  
-
-<table ><tr style="background:transparent; border: none;">
-<td style="background:transparent; border: none;"><img width="200" height="100" src="https://venturebeat.com/wp-content/uploads/2019/06/pytorch.jpg">
-</td>
-<td style="background:transparent; border: none;"><img width="100" height="100" src="https://avatars3.githubusercontent.com/u/56938552?s=100&v=1"></td>
-<td style="background:transparent; border: none;"><img width="300" height="100" src="saved/images/ChloeRobotics.png"></td>
-</tr></table>
 
 - Python 3.6
 - torch==1.7.1 (PyTorch)
@@ -34,12 +26,11 @@ My research interest is in incorporating the the latest research in natural lang
 
 ## How to Start
 
-I am serious when I say "build advanced concepts from the very basics", so bare with me. A more detailed setup instructions is on the way. 
-
-
 if you already have python 3.6 and virtual environments, create a python 3.6 virtual environment, here i used env36 for python3.6 but you can use anything
 
-`$ python3.6 -m venv env36`
+`$ python3.6 -m venv env`
+or
+`virtualenv --python=/usr/bin/python3.6 env`
 
 if python3.6 is your default version, then when you type `python` into your terminal then it should say python version 3.6.x, and for you making the virtual environment is as simple as 
 
@@ -69,7 +60,7 @@ When you want to run the code activate the virtual environment inside the same f
 
 install dependencies
 
-`$ pip install -r requirements.txt`
+`$ pip3 install -r requirements.txt`
 
 [even with virtual environments, some troubleshoot might be needed](https://github.com/tensorflow/tensorflow/issues/559)
 
@@ -77,7 +68,7 @@ install dependencies
 
 save new dependences to requirements
 
-`$ pip freeze > requirements.txt`
+`$ pip3 freeze > requirements.txt`
 
 You can deactivate the virtual environment using the following command in your terminal:
 
@@ -98,6 +89,10 @@ This can be fixed by providing your python interpreter with the path-to-your-mod
 `import sys`
 
 `sys.path.append('/path/to/env/lib/python3.6/site-packages')` 
+
+you can find this path listed here
+
+`$ python3 -m site`
 
 ## Suggested resources for those new to python or deep learning 
 

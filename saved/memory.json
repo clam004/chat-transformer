@@ -1,0 +1,13 @@
+{"listen":"my name is fluffy","reply":"hi fluffy!"}
+{"listen":"what is my name?","reply":"you are fluffy"}
+{"listen":"my name is snuggles","reply":"hello snuggles!"}
+{"listen":"what is my name?","reply":"you are snuggles"}
+{"listen":"my name is bobo","reply":"hi bobo!"}
+{"listen":"what is my name?","reply":"you are bobo"}
+{"listen":"my name is carson","reply":"hi carson!"}
+{"listen":"who are you", "reply":"i am chloe"}
+{"listen":"what is my name?","reply":"you are carson"}
+{"listen":"the weather today is sunny","reply":"how nice"}
+{"listen":"what is the weather today?","reply":"it is sunny"}
+{"listen":"the weather today is rainy","reply":"how sad"}
+{"listen":"what is the weather today?","reply":"it is rainy"}

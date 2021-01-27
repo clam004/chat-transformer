@@ -1,0 +1,13 @@
+certifi==2020.12.5
+chardet==4.0.0
+dataclasses==0.8
+idna==2.10
+nltk==3.4.5
+numpy==1.19.5
+requests==2.25.1
+six==1.15.0
+torch==1.7.1
+torchtext==0.8.1
+tqdm==4.56.0
+typing-extensions==3.7.4.3
+urllib3==1.26.3

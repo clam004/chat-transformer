@@ -49,6 +49,16 @@ class PositionalEncoder(nn.Module):
         return self.dropout(x)
     
 def get_clones(module, N):
+    '''
+    example usage:
+        
+        # initialize n_layers deep copies of the same encoder
+        self.layers = get_clones(EncoderLayer(emb_dim, heads, dropout), n_layers)
+        
+        # usage, apply n_layers transformations to x
+        for i in range(self.n_layers):
+            x = self.layers[i](x, mask)  
+    '''
     return nn.ModuleList([copy.deepcopy(module) for i in range(N)])
 
 class Norm(nn.Module):

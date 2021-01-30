@@ -11,9 +11,9 @@ My research interest is in incorporating the the latest research in natural lang
 
 *chloe* is an end to end neural network chatbot written in PyTorch based on the transformer. Accomplishing goals through conversation is a task we can all relate to, thus chatbots are an ideal agent through which to connect new research to our current understanding of AI and demonstrate new research. *chloe* is built from modules that are thoroughly explained and demonstrated using jupyter notebooks and toy examples that build from these basics.  
 
-- Python 3.6
+- Python 3.6 to 3.8
 - torch==1.7.1 (PyTorch)
-- torchtext 
+- torchtext==0.4.0
 - nltk==3.4.5 (Natural Language Toolkit)
 
 ## Table of Contents
@@ -28,6 +28,8 @@ My research interest is in incorporating the the latest research in natural lang
 
 if you already have python 3.6 and virtual environments, create a python 3.6 virtual environment, here i used env36 for python3.6 but you can use anything
 
+`python3 -m venv env`
+or
 `$ python3.6 -m venv env`
 or
 `virtualenv --python=/usr/bin/python3.6 env`

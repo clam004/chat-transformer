@@ -21,8 +21,8 @@ class PositionalEncoder(nn.Module):
         self.dropout = nn.Dropout(dropout)
         # create constant 'pe' matrix with values dependant on pos and i
         # this matrix of shape (1, input_seq_len, emb_dim) is
-        # cut down to shape (1, input_seq_len, emb_dim) int he forward pass
-        # to be broadcasted across each sampel in the batch 
+        # cut down to shape (1, input_seq_len, emb_dim) in the forward pass
+        # to be broadcasted across each sample in the batch 
         pe = torch.zeros(max_seq_len, emb_dim)
         for pos in range(max_seq_len):
             for i in range(0, emb_dim, 2):
